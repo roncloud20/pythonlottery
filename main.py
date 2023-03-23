@@ -7,3 +7,5 @@ for i in range(0,6):
     if l in lucky:
         continue
     lucky.append(l)
+
+print(lucky)
