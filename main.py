@@ -1,7 +1,10 @@
 import random
 
-lucky = []
 
-for i in range(0,6):
+lucky = set()
+while len(lucky) < 6:
     l = random.randint(1,10)
-    lucky.append(l)
+    lucky.add(l)
+lucky = list(lucky)
+print(lucky)
+  
